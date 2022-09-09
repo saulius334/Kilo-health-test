@@ -1,0 +1,15 @@
+{
+    "name": "saulius/kilo-health-test",
+    "autoload": {
+        "psr-4": {
+            "": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "saulius334",
+            "email": "105633620+saulius334@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
