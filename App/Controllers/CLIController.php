@@ -20,7 +20,7 @@ class CLIController {
     }
     public function run(array $argv) : mixed {
         // $this->resolve($argv);
-        $this->validate();
+        // $this->validate();
         $this->logger->log(['Command: ' => $this->command, 'Arguments: ' => $this->options]);
 
         $dataCollection = $this->reader->read(implode('/', [__DIR__, '..', '..', 'data', 'offers.json']));
@@ -49,10 +49,10 @@ class CLIController {
     // private function resolve(array $argv) : void {
 
     // }
-    private function validate() : void {
-        $api = $this->api();
-        if (!isset($api[$this->command])) {
-            throw new Exception("Unknown command: {$this->command}");
-        }
-    }
+    // private function validate() : void {
+    //     $api = $this->api();
+    //     if (!isset($api[$this->command])) {
+    //         throw new Exception("Unknown command: {$this->command}");
+    //     }
+    // }
 }

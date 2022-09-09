@@ -24,7 +24,7 @@ class OfferCollection extends ArrayObject implements OfferCollectionInterface {
     public function getIterator(): Iterator {
         return parent::getIterator();
     }
-    public function initItems($raw) {
+    public function initItems(array $raw) : void {
         $this->items = array_map(fn ($item) => (new Offer())->load($item), $raw);
     }
 }

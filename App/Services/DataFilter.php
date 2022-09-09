@@ -2,15 +2,34 @@
 
 namespace App\Services;
 
+use App\Interfaces\OfferCollectionInterface;
+use Iterator;
+
 class DataFilter {
-    public function __construct(private array $data = []) {
-        
+
+    private Iterator $iterator;
+
+    public function __construct(OfferCollectionInterface $dataCollection) {
+        $this->iterator = $dataCollection->getIterator();
     }
 
     public function filterByPrice($price_from, $price_to) : array {
-        return $this->data;
+        $price = [];
+        foreach ($this->iterator as $value) {
+            $priceTag = $value->getPrice();
+            if ($priceTag >= $price_from && $priceTag <= $price_to) {
+                $price[] = $value;
+            }
+        }
+        return $price;
     }
     public function filterByVendorId(int $id) : array {
-        return $this->data;
+        $answer = [];
+        foreach ($this->iterator as $value) {
+            if ($id == $value->getVendorId()) {
+                $answer[] = $value;
+            }
+        }
+        return $answer;
     }
 }

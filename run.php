@@ -12,7 +12,7 @@ $logger = new Logger($logDir . '/' . $logFileName);
 $info = new Logger($logDir . '/' . $logFileName);
 $info->log("nice");
 
-printf(__DIR__);
-// $cli = new CLIController;
-// $result = $cli->run($argv);
-// printf('Result is %d' . PHP_EOL, $result);
+
+$cli = new CLIController;
+$result = $cli->run($argv);
+printf('Result is %d' . PHP_EOL, $result);

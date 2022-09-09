@@ -9,7 +9,7 @@ class Offer implements OfferInterface {
     private string $productTitle;
     private int $vendorId;
     private float|int $price;
-
+    
     public function load(array $data) {
         foreach ($data as $index => $value) {
             if (property_exists($this, $index)) {
