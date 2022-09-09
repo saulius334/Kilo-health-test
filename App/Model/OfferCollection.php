@@ -22,7 +22,7 @@ class OfferCollection extends ArrayObject implements OfferCollectionInterface {
         return $this->items[$index];
     }
     public function getIterator(): Iterator {
-        return $this->getIterator();
+        return parent::getIterator();
     }
     public function initItems($raw) {
         $this->items = array_map(fn ($item) => (new Offer())->load($item), $raw);

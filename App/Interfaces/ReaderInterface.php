@@ -8,6 +8,7 @@ use App\Interfaces\OfferCollectionInterface;
 
 interface ReaderInterface {
 
-public function read(string $input): OfferCollectionInterface; // Read in incoming data and parse to objects
+// Read in incoming data and parse to objects
+public function read(string $input): OfferCollectionInterface; 
 
 }
