@@ -1,1 +1,2 @@
-""
+Start of logging: [10:04:54]	lol this works ?
+[10:05:18]	nice

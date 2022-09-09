@@ -10,3 +10,5 @@ $logFileName = date('Y-m-d') . '.txt';
 
 $logger = new Logger($logDir . '/' . $logFileName);
 // echo $logDir . '/' . $logFileName;
+$info = new Logger($logDir . '/' . $logFileName);
+$info->log("nice");
