@@ -1,3 +1,6 @@
 Start of logging: [11:36:58]	nice
 [11:48:27]	nice
 [11:50:06]	nice
+[11:52:32]	nice
+[11:53:28]	nice
+[12:35:08]	nice

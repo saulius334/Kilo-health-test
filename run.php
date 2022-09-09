@@ -13,5 +13,5 @@ $info = new Logger($logDir . '/' . $logFileName);
 $info->log("nice");
 
 $cli = new CLIController;
-// $result = $cli->run($argv);
-// printf('Result is %d' . PHP_EOL, $result);
+$result = $cli->run($argv);
+printf('Result is %d' . PHP_EOL, $result);

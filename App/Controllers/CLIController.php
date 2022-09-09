@@ -35,7 +35,10 @@ class CLIController {
         return count($filteredData);
     }
     private function api() : array {
-        return $this->data;
+        return [
+            self::COUNT_BY_PRICE => ['from', 'to'],
+            self::COUNT_BY_VENDOR => ['id'],
+        ];
     }
     // private function resolve(array $argv) : void {
 
@@ -43,7 +46,7 @@ class CLIController {
     private function validate() : void {
         $api = $this->api();
         if (!isset($api[$this->command])) {
-            throw new Exception("Unknown command: `{$this->command}`");
+            throw new Exception("Unknown command: {$this->command}");
         }
         $argCount = count($api[$this->command]);
         if ($argCount > count($this->options)) {
