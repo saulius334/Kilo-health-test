@@ -27,8 +27,6 @@ class CLIController {
 
 
 
-
-
         $filterer = new DataFilter($dataCollection);
         if ($this->command === self::COUNT_BY_PRICE) {
             $filteredData = $filterer->filterByPrice(...$this->options);
