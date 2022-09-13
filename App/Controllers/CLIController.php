@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Interfaces\ReaderInterface;
 use App\Logger\LoggerInterface;
 use App\Services\DataFilter;
+use App\Services\DataReader;
 use Exception;
 
 class CLIController {
@@ -15,14 +16,16 @@ class CLIController {
     private string $command;
     private array $options;
     
-    public function __construct() {
-        
+    public function __construct($logger) {
+        $this->logger = $logger;
     }
     public function run(array $argv) : mixed {
-        // $this->resolve($argv);
-        // $this->validate();
-        $this->logger->log(['Command: ' => $this->command, 'Arguments: ' => $this->options]);
+        $this->options = array_slice($argv, 2);
+        $this->command = $argv[1];
 
+
+        $this->logger->log(['Command: ' => $this->command, 'Arguments: ' => $this->options]);
+        $this->reader = new DataReader();
         $dataCollection = $this->reader->read(implode('/', [__DIR__, '..', '..', 'data', 'offers.json']));
 
 
@@ -38,19 +41,4 @@ class CLIController {
         $this->logger->log(['data' => ['result' => $filteredData]]);
         return count($filteredData);
     }
-    private function api() : array {
-        return [
-            self::COUNT_BY_PRICE => ['from', 'to'],
-            self::COUNT_BY_VENDOR => ['id'],
-        ];
-    }
-    // private function resolve(array $argv) : void {
-
-    // }
-    // private function validate() : void {
-    //     $api = $this->api();
-    //     if (!isset($api[$this->command])) {
-    //         throw new Exception("Unknown command: {$this->command}");
-    //     }
-    // }
 }

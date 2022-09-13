@@ -27,7 +27,7 @@ class Offer implements OfferInterface {
     public function getVendorId() : int {
         return $this->vendorId;
     }
-    public function getPrice() : float|int {
+    public function getPrice() : float {
         return $this->price;
     }
 

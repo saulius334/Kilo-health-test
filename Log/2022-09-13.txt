@@ -1,0 +1,305 @@
+Start of logging: [08:04:52]	nice
+[08:05:30]	nice
+[08:06:04]	nice
+[08:06:04]	Array
+(
+    [Command: ] => count_by_price_range
+    [Arguments: ] => Array
+        (
+            [0] => 12.00
+            [1] => 145.80
+        )
+
+)
+
+[08:06:24]	nice
+[08:06:24]	Array
+(
+    [Command: ] => count_by_price_range
+    [Arguments: ] => Array
+        (
+            [0] => 12.00
+            [1] => 145.80
+        )
+
+)
+
+[08:06:24]	Array
+(
+    [data] => Array
+        (
+            [result] => Array
+                (
+                    [0] => App\Model\Offer Object
+                        (
+                            [offerId:App\Model\Offer:private] => 124
+                            [productTitle:App\Model\Offer:private] => Napkins
+                            [vendorId:App\Model\Offer:private] => 35
+                            [price:App\Model\Offer:private] => 15.5
+                        )
+
+                )
+
+        )
+
+)
+
+[08:06:37]	nice
+[08:06:37]	Array
+(
+    [Command: ] => count_by_vendor_id
+    [Arguments: ] => Array
+        (
+            [0] => 42
+        )
+
+)
+
+[08:06:37]	Array
+(
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+)
+
+[08:07:23]	nice
+[08:07:23]	Array
+(
+    [Command: ] => count_by_vendor_id
+    [Arguments: ] => Array
+        (
+            [0] => 42
+        )
+
+)
+
+[08:07:23]	Array
+(
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+)
+
+[08:07:28]	nice
+[08:07:28]	Array
+(
+    [Command: ] => count_by_vendor_id
+    [Arguments: ] => Array
+        (
+            [0] => 42
+        )
+
+)
+
+[08:07:28]	Array
+(
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+)
+
+[08:09:51]	nice
+[08:09:51]	Array
+(
+    [Command: ] => count_by_price_range
+    [Arguments: ] => Array
+        (
+            [0] => 12.00
+            [1] => 145.80
+        )
+
+)
+
+[08:09:51]	Array
+(
+    [data] => Array
+        (
+            [result] => Array
+                (
+                    [0] => App\Model\Offer Object
+                        (
+                            [offerId:App\Model\Offer:private] => 124
+                            [productTitle:App\Model\Offer:private] => Napkins
+                            [vendorId:App\Model\Offer:private] => 35
+                            [price:App\Model\Offer:private] => 15.5
+                        )
+
+                )
+
+        )
+
+)
+
+[08:10:15]	nice
+[08:10:15]	Array
+(
+    [Command: ] => count_by_vendor_id
+    [Arguments: ] => Array
+        (
+            [0] => 35
+        )
+
+)
+
+[08:10:15]	Array
+(
+    [data] => Array
+        (
+            [result] => Array
+                (
+                    [0] => App\Model\Offer Object
+                        (
+                            [offerId:App\Model\Offer:private] => 123
+                            [productTitle:App\Model\Offer:private] => Coffee machine
+                            [vendorId:App\Model\Offer:private] => 35
+                            [price:App\Model\Offer:private] => 390.4
+                        )
+
+                    [1] => App\Model\Offer Object
+                        (
+                            [offerId:App\Model\Offer:private] => 124
+                            [productTitle:App\Model\Offer:private] => Napkins
+                            [vendorId:App\Model\Offer:private] => 35
+                            [price:App\Model\Offer:private] => 15.5
+                        )
+
+                )
+
+        )
+
+)
+
+[08:10:23]	nice
+[08:10:23]	Array
+(
+    [Command: ] => count_by_vendor_id
+    [Arguments: ] => Array
+        (
+            [0] => 35
+        )
+
+)
+
+[08:10:23]	Array
+(
+    [data] => Array
+        (
+            [result] => Array
+                (
+                    [0] => App\Model\Offer Object
+                        (
+                            [offerId:App\Model\Offer:private] => 123
+                            [productTitle:App\Model\Offer:private] => Coffee machine
+                            [vendorId:App\Model\Offer:private] => 35
+                            [price:App\Model\Offer:private] => 390.4
+                        )
+
+                    [1] => App\Model\Offer Object
+                        (
+                            [offerId:App\Model\Offer:private] => 124
+                            [productTitle:App\Model\Offer:private] => Napkins
+                            [vendorId:App\Model\Offer:private] => 35
+                            [price:App\Model\Offer:private] => 15.5
+                        )
+
+                )
+
+        )
+
+)
+
+[08:10:26]	nice
+[08:10:26]	Array
+(
+    [Command: ] => count_by_price_range
+    [Arguments: ] => Array
+        (
+            [0] => 12.00
+            [1] => 145.80
+        )
+
+)
+
+[08:10:26]	Array
+(
+    [data] => Array
+        (
+            [result] => Array
+                (
+                    [0] => App\Model\Offer Object
+                        (
+                            [offerId:App\Model\Offer:private] => 124
+                            [productTitle:App\Model\Offer:private] => Napkins
+                            [vendorId:App\Model\Offer:private] => 35
+                            [price:App\Model\Offer:private] => 15.5
+                        )
+
+                )
+
+        )
+
+)
+
+[08:10:35]	nice
+[08:10:35]	Array
+(
+    [Command: ] => count_by_price_range
+    [Arguments: ] => Array
+        (
+            [0] => 12.00
+            [1] => 400.80
+        )
+
+)
+
+[08:10:35]	Array
+(
+    [data] => Array
+        (
+            [result] => Array
+                (
+                    [0] => App\Model\Offer Object
+                        (
+                            [offerId:App\Model\Offer:private] => 123
+                            [productTitle:App\Model\Offer:private] => Coffee machine
+                            [vendorId:App\Model\Offer:private] => 35
+                            [price:App\Model\Offer:private] => 390.4
+                        )
+
+                    [1] => App\Model\Offer Object
+                        (
+                            [offerId:App\Model\Offer:private] => 124
+                            [productTitle:App\Model\Offer:private] => Napkins
+                            [vendorId:App\Model\Offer:private] => 35
+                            [price:App\Model\Offer:private] => 15.5
+                        )
+
+                    [2] => App\Model\Offer Object
+                        (
+                            [offerId:App\Model\Offer:private] => 125
+                            [productTitle:App\Model\Offer:private] => Chair
+                            [vendorId:App\Model\Offer:private] => 84
+                            [price:App\Model\Offer:private] => 230
+                        )
+
+                )
+
+        )
+
+)
+

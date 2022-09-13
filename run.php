@@ -10,9 +10,8 @@ $logFileName = date('Y-m-d') . '.txt';
 
 $logger = new Logger($logDir . '/' . $logFileName);
 $info = new Logger($logDir . '/' . $logFileName);
-$info->log("nice");
 
 
-$cli = new CLIController;
+$cli = new CLIController($logger);
 $result = $cli->run($argv);
 printf('Result is %d' . PHP_EOL, $result);
