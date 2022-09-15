@@ -1,0 +1,1 @@
+Start of logging: [18:41:54]	 Hello World 
