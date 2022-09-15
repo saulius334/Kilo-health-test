@@ -8,11 +8,11 @@ In ```vendor/composer.json``` change line 5
 
 from
 
-"Saulius\\KiloHealthTest\\": "src/"
+```"Saulius\\KiloHealthTest\\": "src/"```
 
 to
 
-"": ""
+```"": ""```
 ```
 composer dumpautoload
 ```
