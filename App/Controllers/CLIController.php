@@ -24,7 +24,7 @@ class CLIController {
         $this->command = $argv[1];
 
 
-        $this->logger->log(['Command: ' => $this->command, 'Arguments: ' => $this->options]);
+        $this->logger->log(['Command' => $this->command, 'Arguments' => $this->options]);
         $this->reader = new DataReader();
         $dataCollection = $this->reader->read(implode('/', [__DIR__, '..', '..', 'data', 'offers.json']));
 
@@ -38,7 +38,7 @@ class CLIController {
         } else {
             throw new Exception("Bad command");
         }
-        $this->logger->log(['data' => ['result' => $filteredData]]);
+        $this->logger->log(['Objects that meet requirements' => $filteredData]);
         return count($filteredData);
     }
 }

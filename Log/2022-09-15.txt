@@ -29,3 +29,290 @@ Start of logging: [08:57:07]	Array
 
 )
 
+[10:57:45]	Array
+(
+    [Command: ] => count_by_price_range
+    [Arguments: ] => Array
+        (
+            [0] => 12.00
+            [1] => 145.80
+        )
+
+)
+
+[10:57:45]	Array
+(
+    [data] => Array
+        (
+            [result] => Array
+                (
+                    [0] => App\Model\Offer Object
+                        (
+                            [offerId:App\Model\Offer:private] => 124
+                            [productTitle:App\Model\Offer:private] => Napkins
+                            [vendorId:App\Model\Offer:private] => 35
+                            [price:App\Model\Offer:private] => 15.5
+                        )
+
+                )
+
+        )
+
+)
+
+[13:36:29]	Array
+(
+    [Command: ] => count_by_price_range
+    [Arguments: ] => Array
+        (
+            [0] => 12.00
+            [1] => 145.80
+        )
+
+)
+
+[13:36:29]	Array
+(
+    [data] => Array
+        (
+            [result] => Array
+                (
+                    [0] => App\Model\Offer Object
+                        (
+                            [offerId:App\Model\Offer:private] => 124
+                            [productTitle:App\Model\Offer:private] => Napkins
+                            [vendorId:App\Model\Offer:private] => 35
+                            [price:App\Model\Offer:private] => 15.5
+                        )
+
+                )
+
+        )
+
+)
+
+[13:36:41]	Array
+(
+    [Command: ] => count_by_price_range
+    [Arguments: ] => Array
+        (
+            [0] => 100.00
+            [1] => 145.80
+        )
+
+)
+
+[13:36:41]	Array
+(
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+)
+
+[13:37:33]	Array
+(
+    [Command: ] => count_by_price_range
+    [Arguments: ] => Array
+        (
+            [0] => 100.00
+            [1] => 145.80
+        )
+
+)
+
+[13:37:33]	Array
+(
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+)
+
+[13:41:04]	Array
+(
+    [Command: ] => count_by_price_range
+    [Arguments: ] => Array
+        (
+            [0] => 100.00
+            [1] => 145.80
+        )
+
+)
+
+[13:41:04]	Array
+(
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+)
+
+[13:43:15]	Array
+(
+    [Command: ] => blabla
+    [Arguments: ] => Array
+        (
+            [0] => 100
+        )
+
+)
+
+[13:43:38]	Array
+(
+    [Command: ] => count_by_price_range
+    [Arguments: ] => Array
+        (
+            [0] => 100.00
+            [1] => 145.80
+        )
+
+)
+
+[13:43:38]	Array
+(
+    [result] => Array
+        (
+        )
+
+)
+
+[13:43:52]	Array
+(
+    [Command: ] => count_by_price_range
+    [Arguments: ] => Array
+        (
+            [0] => 100.00
+            [1] => 145.80
+        )
+
+)
+
+[13:43:52]	Array
+(
+    [result] => Array
+        (
+        )
+
+)
+
+[13:43:57]	Array
+(
+    [Command: ] => count_by_price_range
+    [Arguments: ] => Array
+        (
+            [0] => 10.00
+            [1] => 145.80
+        )
+
+)
+
+[13:43:57]	Array
+(
+    [result] => Array
+        (
+            [0] => App\Model\Offer Object
+                (
+                    [offerId:App\Model\Offer:private] => 124
+                    [productTitle:App\Model\Offer:private] => Napkins
+                    [vendorId:App\Model\Offer:private] => 35
+                    [price:App\Model\Offer:private] => 15.5
+                )
+
+        )
+
+)
+
+[13:45:00]	Array
+(
+    [Command] => count_by_price_range
+    [Arguments] => Array
+        (
+            [0] => 10.00
+            [1] => 145.80
+        )
+
+)
+
+[13:45:00]	Array
+(
+    [Data received after filtering] => Array
+        (
+            [0] => App\Model\Offer Object
+                (
+                    [offerId:App\Model\Offer:private] => 124
+                    [productTitle:App\Model\Offer:private] => Napkins
+                    [vendorId:App\Model\Offer:private] => 35
+                    [price:App\Model\Offer:private] => 15.5
+                )
+
+        )
+
+)
+
+[13:46:01]	Array
+(
+    [Command] => count_by_price_range
+    [Arguments] => Array
+        (
+            [0] => 10.00
+            [1] => 145.80
+        )
+
+)
+
+[13:46:01]	Array
+(
+    [# Objects meets requirements] => Array
+        (
+            [0] => App\Model\Offer Object
+                (
+                    [offerId:App\Model\Offer:private] => 124
+                    [productTitle:App\Model\Offer:private] => Napkins
+                    [vendorId:App\Model\Offer:private] => 35
+                    [price:App\Model\Offer:private] => 15.5
+                )
+
+        )
+
+)
+
+[13:46:23]	Array
+(
+    [Command] => count_by_price_range
+    [Arguments] => Array
+        (
+            [0] => 10.00
+            [1] => 145.80
+        )
+
+)
+
+[13:46:23]	Array
+(
+    [Objects that meet requirements] => Array
+        (
+            [0] => App\Model\Offer Object
+                (
+                    [offerId:App\Model\Offer:private] => 124
+                    [productTitle:App\Model\Offer:private] => Napkins
+                    [vendorId:App\Model\Offer:private] => 35
+                    [price:App\Model\Offer:private] => 15.5
+                )
+
+        )
+
+)
+
