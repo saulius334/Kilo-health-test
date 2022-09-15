@@ -1,7 +1,7 @@
 ## Quickstart
 
 ```{
-composer i
+composer install
 composer init
 ```
 In ```vendor/composer.json``` change line 5
