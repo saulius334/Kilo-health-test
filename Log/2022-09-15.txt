@@ -1,0 +1,31 @@
+Start of logging: [08:57:07]	Array
+(
+    [Command: ] => count_by_price_range
+    [Arguments: ] => Array
+        (
+            [0] => 12.00
+            [1] => 145.80
+        )
+
+)
+
+[08:57:07]	Array
+(
+    [data] => Array
+        (
+            [result] => Array
+                (
+                    [0] => App\Model\Offer Object
+                        (
+                            [offerId:App\Model\Offer:private] => 124
+                            [productTitle:App\Model\Offer:private] => Napkins
+                            [vendorId:App\Model\Offer:private] => 35
+                            [price:App\Model\Offer:private] => 15.5
+                        )
+
+                )
+
+        )
+
+)
+
