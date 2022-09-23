@@ -1,5 +1,5 @@
 ## Quickstart
-
+### Type in terminal
 ```{
 composer install
 ```
