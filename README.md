@@ -1,3 +1,6 @@
+## About
+a simple CLI script which reads JSON based data from a specific endpoint via HTTP.
+
 ## Quickstart
 ### Type in terminal
 ```{
